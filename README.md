@@ -36,7 +36,9 @@ There are two model architectures present in the notebooks:
 - **sparse** -> a smaller architecture with the bare minimum of parameters
 - **rich** -> a slightly larger architecture that extracts more features from patches
 
-The existing folder structure of the repository can be used to run the model with **little to no further setup required**. <br> 
+The existing folder structure of the repository can be used to run the model with **little to no further setup required**. <br> <br>
+
+While the folders themselves only contain exemplary data, you can easily place your own data and models inside while only having change the file names within in the scripts. <br> <br>
 
 If you want to try the model on data not present in the folder structure you will have to modify the paths in the import section of the notebooks. <br> <br>
 If you want to save logs or checkpoints from training in a different place you will have to modify the paths in the epoch section of "train_model.ipynb". <br> <br>
