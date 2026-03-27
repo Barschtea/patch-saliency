@@ -1,5 +1,5 @@
 # patch-saliency
-This repository is part of the 2025-2026 run of the module "Human-Computer Interfaces" at the university of Leipzig, taught by Patrick Ebel. <br>
+This repository is part of the 2025-2026 run of the module "Human-Computer Interfaces" at the university of Leipzig, taught by Patrick Ebel.
 The main goal of the project was to explore resolution independent saliency analysis. <br> <br>
 
 Many existing models use one of the following mechanisms to combat differing resolutions in training data: <br>
