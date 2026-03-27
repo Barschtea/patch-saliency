@@ -1,0 +1,2 @@
+This is where you would place any checkpoints.pt.
+(If you want to utilize the pre-existing folder structure)
