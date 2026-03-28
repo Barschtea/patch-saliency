@@ -31,6 +31,9 @@ The project consists mainly of two jupyter notebooks. <br> <br>
 **train_model.ipynb** can be used to train a model of sparse architecture on the images present in dataset. <br> <br>
 **load_mdoel.ipynb** then can be utilized to load any checkpoints present in the /models/checkpoints folder and feed an image to it. <br>
 
+To run the notebooke you need the packages listed in **requirements.txt**. <br>
+**Make sure that your torch installation has the necessary cuda components, if you want utilize a GPU.**
+
 There are two model architectures present in the notebooks: 
 
 - **sparse** -> a smaller architecture with the bare minimum of parameters
