@@ -20,7 +20,7 @@ In a final step all patches are reconcatinated to form the final output-image.
 
 This way this model is able to take input images of any size. <br>
 
-The training of this model utilzied teh UEyes dataset available under: <br>
+The training of this model utilzied the UEyes dataset available under: <br>
 https://github.com/YueJiang-nj/UEyes-CHI2023
 
 ---
