@@ -21,6 +21,7 @@ In a final step all patches are reconcatinated to form the final output-image.
 This way this model is able to take input images of any size. <br>
 
 The training of this model utilzied the UEyes dataset available under: <br>
+
 https://github.com/YueJiang-nj/UEyes-CHI2023
 
 ---
@@ -52,6 +53,7 @@ Sections that potentially need to be changed:
 - **"model_name" in the epoch section when training a new model** <br> (Otherwise existing checkpoints might get overridden. 
 
 Pre-trained model checkpoints for 1s and 3s heatmaps can be found here: <br>
+
 https://osf.io/fnv9q/files/osfstorage
 
 ---
