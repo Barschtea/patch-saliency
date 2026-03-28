@@ -49,7 +49,7 @@ Sections that potentially need to be changed:
 - The import section of the notebooks. (Specify data that should be loaded.)
 - The epoch section of "train_model.ipynb". (Specify paths to save logs and checkpoints to.)
 - The "Loading the model weights" section of load_model.ipynb. (Specify which model / architecture to load.)
-- **"model_name" in the epoch section when training a new model** (Otherwise existing checkpoints might get overridden. 
+- **"model_name" in the epoch section when training a new model** <br> (Otherwise existing checkpoints might get overridden. 
 
 Pre-trained model checkpoints for 1s and 3s heatmaps can be found here: <br>
 https://osf.io/fnv9q/files/osfstorage
