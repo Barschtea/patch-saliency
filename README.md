@@ -39,17 +39,16 @@ There are two model architectures present in the notebooks:
 - **sparse** -> a smaller architecture with the bare minimum of parameters
 - **rich** -> a slightly larger architecture that extracts more features from patches
 
-The existing folder structure of the repository can be used to run the model with **little to no further setup required**. <br> <br>
-
-While the folders themselves only contain exemplary data, you can easily place your own data and models inside, while only having to change the file names within in the scripts. <br> <br>
+The existing folder structure of the repository can be used to run the model. <br>
+Place your data in the corresponding folders and adjust filenames within the scripts accordingly. <br>
 
 **Depending on script environment, some paths in the scripts may need to be changed.** <br> 
 **They are marked by a "ATTENTION" comment within the script.** <br>
 
 Sections that potentially need to be changed:
 - The import section of the notebooks. (Specify data that should be loaded.)
-- The epoch section of "train_model.ipynb". (Specify paths to save logs and checkpoints.)
-- The "Loading the model weights" section of load_model.ipynb. (Specify which model / architecture to load)
+- The epoch section of "train_model.ipynb". (Specify paths to save logs and checkpoints to.)
+- The "Loading the model weights" section of load_model.ipynb. (Specify which model / architecture to load.)
 - **"model_name" in the epoch section when training a new model** (Otherwise existing checkpoints might get overridden. 
 
 Pre-trained model checkpoints for 1s and 3s heatmaps can be found here: <br>
