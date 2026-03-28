@@ -52,8 +52,6 @@ Sections that potentially need to be changed:
 - The "Loading the model weights" section of load_model.ipynb. (Specify which model / architecture to load)
 - **"model_name" in the epoch section when training a new model** (Otherwise existing checkpoints might get overridden. 
 
-If you want to import a model not present in /models/checkpoints you will have to modify the paths in the "Loading the model weights" section. 
-
 Pre-trained model checkpoints for 1s and 3s heatmaps can be found here: <br>
 https://osf.io/fnv9q/files/osfstorage
 
