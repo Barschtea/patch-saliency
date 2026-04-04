@@ -1,3 +1,6 @@
 .venv/
 dataset/
 models/
+Results/Rich/
+Results/Sparse/
+sorted/
