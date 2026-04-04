@@ -1,9 +1,9 @@
-torch==2.5.1
+torch
 torchvision
-timm==1.0.24
-pandas==2.3.3
-patchify==0.2.3
-numpy==2.3.5
-Pillow==12.0.0
-notebook==7.5.0
-ipykernel==6.31.0
+timm
+pandas
+patchify
+numpy
+Pillow
+notebook
+ipykernel
